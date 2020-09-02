@@ -1,0 +1,47 @@
+body{
+	font-family: 'Archivo', sans-serif;
+}
+
+
+.site-logo img { 
+	margin: 0 auto;
+	display: block;
+	max-width: 30%;
+    max-height: 30%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 200px;
+	padding: 10px;
+	background-color: #333333;
+}
+
+li a:hover {
+	background-color: #111111;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+}
