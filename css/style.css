@@ -60,7 +60,7 @@ li a:hover {
 }
 
 .footer {
-	position: sticky;
+	position: fixed;
 	width: 100%;
 	background-color: gray;
 	color: white;
